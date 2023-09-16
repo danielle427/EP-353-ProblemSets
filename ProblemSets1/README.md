@@ -13,6 +13,6 @@
 
 *\n*: used to insert a new line for formatting.
 
-When you compile and run the program, it will display "Hello, World!" on the console. 
+When I	 compile and run the program, it will display "Hello, World!" on the console. 
 
 When I change the text inside the double quotes("") in the printf function to something else, that new text will be displayed when you run the program. (displaying whatever text you provide within the double quotes.)

@@ -26,7 +26,7 @@ int main() {
     // Prompt user to enter the MIDI notes of the chord
     printf("Enter the MIDI notes of the chord (separated by spaces): ");
     for (int i = 0; i < size; i++) {
-        scanf("%i %i %i", &chord[0], &chord[1], &chord[2]);
+        scanf("%i", &chord[i]);
     }
 
     // Call the function to calculate frequencies

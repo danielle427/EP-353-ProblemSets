@@ -7,11 +7,11 @@ int main(){
     int value;
     while (MIDIpitch != -1){
 
-    printf("Enter the MIDIpitch\n");
+    printf("Enter the MIDIpitch\n"); 
     scanf("%i",&MIDIpitch);
 
     int octave = MIDIpitch / 12 - 1;
-    int note = MIDIpitch % 12;783
+    int note = MIDIpitch % 12;
     char MIDInote;
    
 

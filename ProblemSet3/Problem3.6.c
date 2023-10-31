@@ -67,7 +67,7 @@ int main() {
     printf("How many MIDI notes to enter?: ");
     scanf("%i", &size);
 
-    struct MIDINote notes[size]; //declare array of MIDINotes
+    struct MIDINote notes[size]; //declare array MIDINotes 
 
     //input the MIDI notes
     input_notes(notes, size);

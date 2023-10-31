@@ -6,7 +6,7 @@ double midi_to_frequency(int note) {
     return 440 * pow(2, (note - 69) / 12.0);
 }
 
-//calculate frequencies of MIDI notes in a chord
+//calculate frequency of MIDI notes in a chord
 void frequencies_of_chord(int* chord, int size, float* frequencies) {
     for (int i = 0; i < size; i++) {
         frequencies[i] = midi_to_frequency(chord[i]);

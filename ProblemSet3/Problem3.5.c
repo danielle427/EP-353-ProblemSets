@@ -24,7 +24,7 @@ void input_notes(struct MIDINote notes[], int size) {
         scanf(", %i %i %i", &pitch[i], &velocity[i], &channel[i]);
     }
 
-    //copy the MIDI note values to the `notes` array.
+    //copy the MIDI note values to the notes array
     for (int i = 0; i < size; i++) {
         notes[i].pitch = pitch[i];
         notes[i].velocity = velocity[i];
@@ -36,7 +36,7 @@ void input_notes(struct MIDINote notes[], int size) {
 int main() {
     int size;
 
-    //Prompt the user to enter the number of MIDI notes
+    //users enter the number of MIDI notes
     printf("How many MIDI notes to enter? ");
 
     scanf("%i", &size);

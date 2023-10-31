@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <math.h> // import math header to use pow function
 
-// Function to convert MIDI note number to frequency in Hz
+//convert MIDI note number to frequency in Hz
 float midi_to_frequency(int note) {
     // MIDI note frequency calculation using the formula: frequency = 440.0 * 2^((note - 69) / 12.0)
     double result = 440.0 * pow(2.0, (note - 69) / 12.0);
     return result; // Return the calculated frequency
 }
 
-// Main function where the program starts execution
+//Main function where the program starts execution
 int main() {
     int MidiNote; // Variable to store the MIDI note number
 
-    // Prompt the user to enter the MIDI note number
+    //The user to enter the MIDI note number
     printf("Enter the MidiNote: ");
 
-    // Read the user input and validate it
+    //Read the user input and validate it
     if (scanf("%i", &MidiNote) != 1) {
         printf("Invalid. Enter a valid MidiNote.\n"); // Print an error message for invalid input
         return 1; // Return error code 1 to indicate an issue

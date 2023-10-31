@@ -7,7 +7,7 @@ struct MIDINote {
     int channel;
 };
 
-// Function to print a MIDINote
+//Function to print a MIDINote
 void print_note(struct MIDINote note) {
     printf("The MIDI note has pitch %i, velocity %i, and channel %i.\n", note.pitch, note.velocity, note.channel);
 }
@@ -15,7 +15,7 @@ void print_note(struct MIDINote note) {
 int main() {
     struct MIDINote note; //Declare a MIDINote variable
 
-    //Prompt the user to enter pitch, velocity, and channel
+    //the user to enter pitch, velocity, and channel
     printf("Enter pitch: ");
     scanf("%i", &note.pitch);
     printf("Enter velocity: ");
@@ -23,7 +23,7 @@ int main() {
     printf("Enter channel: ");
     scanf("%i", &note.channel);
 
-    //Call the function to print the details of the note
+    //call the function to print the details of the note
     print_note(note);
 
 

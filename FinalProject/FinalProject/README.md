@@ -24,5 +24,4 @@ Make on-the-fly adjustments to EQ parameters in real-time using the intuitive GU
 
 
 
- <Work Credit>
- Matkatmusic GitHub - matkatmusic/SimpleEQ: The code for the SimpleEQ C++ Plugin Project (https://github.com/matkatmusic/SimpleEQ.)
+ Work Credit: Matkatmusic GitHub - matkatmusic/SimpleEQ: The code for the SimpleEQ C++ Plugin Project (https://github.com/matkatmusic/SimpleEQ.)

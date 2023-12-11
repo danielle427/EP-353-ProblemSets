@@ -2,8 +2,7 @@
 ##Design Document for BasicEQAudioProcessor Code Implementation:
 
 The BasicEQAudioProcessor code is designed to implement a basic Equalizer audio processing plugin using the JUCE framework. Below is a technical overview of the code structure, its major components, and the rationale behind design decisions.
- <Work Credit>
- Matkatmusic GitHub - matkatmusic/SimpleEQ: The code for the SimpleEQ C++ Plugin Project (https://github.com/matkatmusic/SimpleEQ.)
+Work Credit: Matkatmusic GitHub - matkatmusic/SimpleEQ: The code for the SimpleEQ C++ Plugin Project (https://github.com/matkatmusic/SimpleEQ.)
 
 ####1. Class Structure:
 The code follows a typical JUCE AudioProcessor design structure, consisting of a BasicEQAudioProcessor class that inherits from AudioProcessor. The processor is initialized with input and output channel configurations. The code maintains separate audio processing chains for the left and right channels using the dsp::ProcessorChain. This chain includes filters for low-cut, high-cut, and peak adjustments.
